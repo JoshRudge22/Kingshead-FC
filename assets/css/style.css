@@ -1,0 +1,15 @@
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    list-style-type: none;
+    
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
