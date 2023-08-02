@@ -7,20 +7,11 @@ header a {
     letter-spacing: 1px;
     text-transform: uppercase;
     list-style-type: none;
-    
+    color: black;
 }
 
 .active {
     border-bottom: 1px solid black;
-}
-
-.football-badge {
-    background-image: url('');
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 #fname, #lname, #email, #phone, #age {
@@ -34,7 +25,17 @@ header a {
     resize: vertical
 }
 
-.soical-media{
+.soical-media {
+    text-align: center;
+}
+
+.soical-media li {
     list-style-type: none;
     display: inline-flex;
+    margin: 2%;
+    
+}
+.soical-media i {
+   font-size: 200%;
+   color: black;
 }
