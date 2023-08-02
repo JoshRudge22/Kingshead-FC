@@ -14,8 +14,13 @@ header a {
     border-bottom: 1px solid black;
 }
 
-#badge {
-   
+.football-badge {
+    background-image: url('');
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 #fname, #lname, #email, #phone, #age {
