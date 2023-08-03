@@ -36,6 +36,14 @@ header a {
     color: black;
 }
 
+/* gallery page */
+
+#photos img{
+    border-radius: 10px;
+    max-width: 100%;
+    height: 600px;
+}
+
 /*Contact us page*/
 
 #fname, #lname, #email, #phone, #age {
