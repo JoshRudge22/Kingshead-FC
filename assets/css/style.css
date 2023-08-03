@@ -1,3 +1,5 @@
+/*All the pages*/
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -14,17 +16,6 @@ header a {
     border-bottom: 1px solid black;
 }
 
-#fname, #lname, #email, #phone, #age {
-    width: 10%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-}
-
 .soical-media {
     text-align: center;
 }
@@ -33,9 +24,36 @@ header a {
     list-style-type: none;
     display: inline-flex;
     margin: 2%;
+
+}
+
+.soical-media i {
+    font-size: 200%;
+    color: black;
+}
+
+/*Contact us page*/
+
+#fname, #lname, #email, #phone, #age {
+    width: 10%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
     
 }
-.soical-media i {
-   font-size: 200%;
-   color: black;
+
+.contact {
+    text-align: center;
+    
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    font-size:large;
+    margin-left: auto;
+    margin-right: auto;
 }
