@@ -1,5 +1,9 @@
 /*All the pages*/
 
+body {
+    background-color: lightblue;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -56,4 +60,9 @@ table, th, tr, td {
     font-size:large;
     margin-left: auto;
     margin-right: auto;
+}
+
+#left {
+    margin-left: auto;
+    margin-top: -500px;
 }
