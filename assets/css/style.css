@@ -57,6 +57,11 @@ header a {
     left: 15%;
 }
 
+.middle {
+    float: left, right;
+    width: 70%;
+}
+
 .leftcolumn {
     float: left;
     width: 75%;
