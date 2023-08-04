@@ -58,6 +58,7 @@ header a {
 }
 
 .middle {
+
     float: left, right;
     width: 70%;
 }
