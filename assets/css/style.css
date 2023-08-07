@@ -50,33 +50,7 @@ header a {
 
 /* Home Page */
 
-#hero-image {
-    background-image: url('../images/team');
-    height: 300px;
-    width: 20%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 15%;
-}
 
-.hero {
-    margin-top: 10px;
-    width: 20%;
-}
-
-.leftcolumn {
-    float: left;
-    width: 75%;
-}
-
-.rightcolumn {
-    float: left;
-    height: 100%;
-    width: 25%;
-    padding-left: 10px;
-}
 
 /* About us Page*/
 
