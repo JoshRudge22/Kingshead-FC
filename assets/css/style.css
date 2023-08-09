@@ -21,7 +21,9 @@ header a {
     text-transform: uppercase;
     list-style-type: none;
     color: black;
-    float: right;
+    display: inline;
+    text-align: center;
+    
 }
 
 .active {
@@ -50,7 +52,37 @@ header a {
 
 /* Home Page */
 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
 
+table, th, tr, td {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid black;
+    font-size: large;
+    margin: left;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    }
+
+/*.team {
+     Can't get the image to move so got rid until speak to tutor 
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+#awards {
+    max-width: 400px;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-width: 10px;
+}
 
 /* About us Page*/
 
@@ -60,19 +92,20 @@ header a {
     height: 500px;
 }
 
-/* gallery page */
+/* Gallery page */
 
 #photos img{
     border-radius: 10px;
     max-width: 100%;
     height: 500px;
+    display: inline-block;
 }
-
 
 /*Contact us page*/
 
+
 #fname, #lname, #email, #phone, #age {
-    width: 10%;
+    width: 40%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -83,21 +116,8 @@ header a {
     
 }
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-}
+/*Responsive to all devices */
 
-table, th, tr, td {
-    border: 1px solid black;
-    font-size:large;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#left {
-    margin-left: auto;
-    margin-top: -500px;
+@media  screen and (max-width) {
+    
 }
