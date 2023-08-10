@@ -22,7 +22,7 @@ header a {
     list-style-type: none;
     color: black;
     display: inline;
-    text-align: center;
+    text-align: left;
     
 }
 
@@ -61,6 +61,8 @@ header a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    text-align: center;
+    color: white;
 }
 
 .hero-image1 {
@@ -71,6 +73,8 @@ header a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    text-align: center;
+    color: white;
 }
 
 .hero-image2 {
@@ -81,6 +85,8 @@ header a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    text-align: center;
+    color: white;
 }
 
 .hero-image3 {
@@ -91,6 +97,8 @@ header a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    text-align: center;
+    color: white;
 }
 
 /* About us Page*/
