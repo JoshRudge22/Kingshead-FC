@@ -1,4 +1,4 @@
-/*All the pages*/
+/*All the pages*/ 
 * {
     box-sizing: border-box;
 }
@@ -9,6 +9,27 @@ header h1 {
 
 body {
     background-color: lightblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    columns: 2;
+    gap: 12px;
+}
+
+.navigation {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-left: 12px;
+    font-size: large;
 }
 
 header a {
@@ -22,8 +43,8 @@ header a {
     list-style-type: none;
     color: black;
     display: inline;
-    text-align: left;
-    
+    text-align: center;
+
 }
 
 .active {
@@ -31,7 +52,7 @@ header a {
 }
 
 #footer {
-    bottom: 0;
+    bottom: 0px;
 }
 
 .soical-media {
@@ -52,55 +73,39 @@ header a {
 
 /* Home Page */
 
-.hero-image {
-    height:300px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../images/george.png");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
+.team {
+    background-image: url('../images/team.png');
     background-size: cover;
-    position: relative;
-    text-align: center;
-    color: white;
+    background-position: center;
+    height: 500px;
 }
 
-.hero-image1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/team.png");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
+.text-team {
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    text-align: center;
+    height: 80px;
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
-.hero-image2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/Dan.png");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
+.text-league {
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    text-align: center;
+    height: 80px;
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
-.hero-image3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../images/cal.png");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
+.league {
+    background-image: url('../images/league.png');
     background-size: cover;
-    position: relative;
-    text-align: center;
-    color: white;
+    background-position: center;
+    height: 500px;
 }
-
 /* About us Page*/
 
 .shop {
@@ -111,11 +116,9 @@ header a {
 
 /* Gallery page */
 
-#photos img{
-    border-radius: 10px;
-    max-width: 100%;
-    height: 500px;
-    display: inline-block;
+.photos {
+    height: 300px;
+    width: 300px;
 }
 
 /*Contact us page*/
@@ -130,11 +133,37 @@ header a {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    
 }
 
+table, th, tr, td {
+   border: 1px solid black;
+    
+}
 /*Responsive to all devices */
 
-@media  screen and (max-width) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .navigation {
+        margin-top: 0px;
+        
+    }
+
+    #nav-bar li {
+        display: block;
+        margin-top: 12px;
+        text-align: left;
+    }
+
+    .text-team {
+        height: 80px;
+        width: 20%;
+    }
     
+    .text-league {
+        height: 130px;
+        width: 20%;
+    }
 }
