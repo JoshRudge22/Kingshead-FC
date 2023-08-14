@@ -212,7 +212,7 @@ td {
     }
 
     .text-team {
-        height: 50px;
+        height: 80px;
         width: 60%;
         margin-top: 50px;
     }
@@ -278,6 +278,19 @@ td {
         text-align: left;
     }
 
+    .text-team {
+        height: 80px;
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .text-league {
+        height: 130px;
+        width: 20%;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
     .shop {
         width: 100%;
         height: auto;
@@ -320,6 +333,19 @@ td {
         font-size: 13px;
     }
 
+    .text-team {
+        height: 80px;
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .text-league {
+        height: 130px;
+        width: 20%;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
     .shop {
         width: 40%;
         height: 50%;
@@ -355,6 +381,19 @@ td {
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     .flex-container {
         flex-direction: flex;
+    }
+
+    .text-team {
+        height: 80px;
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .text-league {
+        height: 130px;
+        width: 20%;
+        margin-top: 50px;
+        margin-left: 40px;
     }
 
     .shop {
