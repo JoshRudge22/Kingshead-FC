@@ -1,4 +1,4 @@
-/*All the pages*/ 
+/*All the pages*/
 * {
     box-sizing: border-box;
 }
@@ -51,7 +51,7 @@ header a {
     border-bottom: 1px solid black;
 }
 
-#footer {
+footer {
     bottom: 0px;
 }
 
@@ -106,6 +106,7 @@ header a {
     background-position: center;
     height: 500px;
 }
+
 /* About us Page*/
 
 .shop {
@@ -117,14 +118,18 @@ header a {
 /* Gallery page */
 
 .photos {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 /*Contact us page*/
 
 
-#fname, #lname, #email, #phone, #age {
+#fname,
+#lname,
+#email,
+#phone,
+#age {
     width: 40%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -135,10 +140,14 @@ header a {
     resize: vertical;
 }
 
-table, th, tr, td {
-   border: 1px solid black;
-    
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+
 }
+
 /*Responsive to all devices */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -146,9 +155,57 @@ table, th, tr, td {
         flex-direction: column;
     }
 
+    .header {
+        font-size: medium;
+    }
+
     .navigation {
         margin-top: 0px;
-        
+
+    }
+
+    #nav-bar li {
+        display: block;
+        margin-top: 12px;
+        text-align: left;
+        gap: 5px;
+    }
+
+    .text-team {
+        height: 80px;
+        width: 20%;
+    }
+
+    .text-league {
+        height: 130px;
+        width: 20%;
+    }
+
+    .shop {
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .photos {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .header {
+        font-size: 10px;
+    }
+
+    .navigation {
+        margin-top: 0px;
+
     }
 
     #nav-bar li {
@@ -157,20 +214,13 @@ table, th, tr, td {
         text-align: left;
     }
 
-    .text-team {
-        height: 80px;
-        width: 20%;
-    }
-    
-    .text-league {
-        height: 130px;
-        width: 20%;
+    .shop {
+        width: 100%;
+        height: auto;
     }
 
-    .gallery {
-        height: 50px;
-        width: 50px;
-        flex-direction: column;
-        column-rule: 2;
+    .photos {
+        width: 100%;
+        height: auto;
     }
 }
