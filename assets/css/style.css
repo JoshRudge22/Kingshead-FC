@@ -124,19 +124,49 @@ footer {
 
 /*Contact us page*/
 
-#fname,
-#lname,
-#email,
-#phone,
-{
-width: 40%;
-padding: 12px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-margin-top: 6px;
-margin-bottom: 16px;
-resize: vertical;
+#fname {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+#lname {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#email {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#phone {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 #age {
@@ -182,13 +212,16 @@ td {
     }
 
     .text-team {
-        height: 80px;
-        width: 20%;
+        height: 50px;
+        width: 60%;
+        margin-top: 50px;
     }
 
     .text-league {
         height: 130px;
         width: 20%;
+        margin-top: 50px;
+        margin-left: 40px;
     }
 
     .shop {
@@ -200,6 +233,27 @@ td {
     .photos {
         width: 100%;
         height: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    table {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3,
+    p {
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
