@@ -166,4 +166,11 @@ table, th, tr, td {
         height: 130px;
         width: 20%;
     }
+
+    .gallery {
+        height: 50px;
+        width: 50px;
+        flex-direction: column;
+        column-rule: 2;
+    }
 }
