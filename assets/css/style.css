@@ -297,3 +297,41 @@ td {
         margin-right: auto;
     }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .flex-container {
+        flex-direction: flex;
+    }
+
+    .shop {
+        width: 400px;
+        height: 400px;
+    }
+
+    .photos {
+        width: 500px;
+        height: 500px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    table {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3,
+    p {
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
