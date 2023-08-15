@@ -128,6 +128,7 @@ footer {
 /*Contact us page*/
 
 #fname {
+    font-family: 'Inter', sans-serif;
     width: 40%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -140,6 +141,7 @@ footer {
 
 
 #lname {
+    font-family: 'Inter', sans-serif;
     width: 40%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -151,6 +153,7 @@ footer {
 }
 
 #email {
+    font-family: 'Inter', sans-serif;
     width: 40%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -162,6 +165,7 @@ footer {
 }
 
 #phone {
+    font-family: 'Inter', sans-serif;
     width: 40%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -173,6 +177,7 @@ footer {
 }
 
 #age {
+    font-family: 'Inter', sans-serif;
     width: 10%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -215,12 +220,14 @@ td {
     }
 
     .text-team {
+        font-family: 'Inter', sans-serif;
         height: 80px;
         width: 60%;
         margin-top: 50px;
     }
 
     .text-league {
+        font-family: 'Inter', sans-serif;
         height: 130px;
         width: 20%;
         margin-top: 50px;
@@ -282,12 +289,14 @@ td {
     }
 
     .text-team {
+        font-family: 'Inter', sans-serif;
         height: 80px;
         width: 60%;
         margin-top: 50px;
     }
 
     .text-league {
+        font-family: 'Inter', sans-serif;
         height: 130px;
         width: 20%;
         margin-top: 50px;
@@ -337,12 +346,14 @@ td {
     }
 
     .text-team {
+        font-family: 'Inter', sans-serif;
         height: 80px;
         width: 60%;
         margin-top: 50px;
     }
 
     .text-league {
+        font-family: 'Inter', sans-serif;
         height: 130px;
         width: 20%;
         margin-top: 50px;
@@ -387,12 +398,14 @@ td {
     }
 
     .text-team {
+        font-family: 'Inter', sans-serif;
         height: 80px;
         width: 60%;
         margin-top: 50px;
     }
 
     .text-league {
+        font-family: 'Inter', sans-serif;
         height: 130px;
         width: 20%;
         margin-top: 50px;
@@ -439,12 +452,14 @@ td {
     }
 
     .text-team {
+        font-family: 'Inter', sans-serif;
         height: 80px;
         width: 40%;
         margin-top: 50px;
     }
 
     .text-league {
+        font-family: 'Inter', sans-serif;
         height: 70px;
         width: 30%;
         margin-top: 50px;
