@@ -472,6 +472,7 @@ td {
     }
 
     .photos {
+        grid-row: 3;
         width: 500px;
         height: 500px;
     }
