@@ -228,10 +228,10 @@ td {
 
     .text-league {
         font-family: 'Inter', sans-serif;
-        height: 130px;
-        width: 20%;
+        height: 80px;
+        width: 70%;
         margin-top: 50px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .shop {
@@ -297,10 +297,10 @@ td {
 
     .text-league {
         font-family: 'Inter', sans-serif;
-        height: 130px;
-        width: 20%;
+        height: 80px;
+        width: 70%;
         margin-top: 50px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .shop {
@@ -347,17 +347,17 @@ td {
 
     .text-team {
         font-family: 'Inter', sans-serif;
-        height: 80px;
-        width: 60%;
+        height: 60px;
+        width: 40%;
         margin-top: 50px;
     }
 
     .text-league {
         font-family: 'Inter', sans-serif;
-        height: 130px;
-        width: 20%;
+        height: 65px;
+        width: 35%;
         margin-top: 50px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .shop {
@@ -394,22 +394,22 @@ td {
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     .flex-container {
-        flex-direction: flex;
+        flex-direction: column;
     }
 
     .text-team {
         font-family: 'Inter', sans-serif;
-        height: 80px;
-        width: 60%;
+        height: 50px;
+        width: 30%;
         margin-top: 50px;
     }
 
     .text-league {
         font-family: 'Inter', sans-serif;
-        height: 130px;
-        width: 20%;
+        height: 55px;
+        width: 35%;
         margin-top: 50px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .shop {
@@ -453,14 +453,14 @@ td {
 
     .text-team {
         font-family: 'Inter', sans-serif;
-        height: 80px;
-        width: 40%;
+        height: 60px;
+        width: 30%;
         margin-top: 50px;
     }
 
     .text-league {
         font-family: 'Inter', sans-serif;
-        height: 70px;
+        height: 60px;
         width: 30%;
         margin-top: 50px;
         margin-left: 40px;
