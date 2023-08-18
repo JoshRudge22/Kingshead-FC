@@ -178,7 +178,7 @@ footer {
 
 #age {
     font-family: 'Inter', sans-serif;
-    width: 10%;
+    width: 15%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -445,7 +445,7 @@ td {
 
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1600px) {
+@media screen and (min-width: 1201px) and (max-width: 5000px) {
 
     .flex-container {
         flex-direction: column;
