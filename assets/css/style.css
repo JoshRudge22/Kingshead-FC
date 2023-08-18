@@ -394,7 +394,7 @@ td {
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     .flex-container {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .text-team {
@@ -448,7 +448,7 @@ td {
 @media screen and (min-width: 1201px) and (max-width: 5000px) {
 
     .flex-container {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .text-team {
