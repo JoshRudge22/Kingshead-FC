@@ -129,7 +129,7 @@ footer {
 
 #fname {
     font-family: 'Inter', sans-serif;
-    width: 40%;
+    width: 30%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -142,7 +142,7 @@ footer {
 
 #lname {
     font-family: 'Inter', sans-serif;
-    width: 40%;
+    width: 30%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -154,7 +154,7 @@ footer {
 
 #email {
     font-family: 'Inter', sans-serif;
-    width: 40%;
+    width: 30%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -166,7 +166,7 @@ footer {
 
 #phone {
     font-family: 'Inter', sans-serif;
-    width: 40%;
+    width: 30%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
