@@ -56,7 +56,7 @@ I’ve added a contact us page for the user to get in touch if they would like t
 ## Contact us
 ![contact us - html](https://github.com/JoshRudge22/Kingshead-Fc/assets/139856712/2e639146-c2f4-48df-8630-2b08f3cba167)
 
-I have taken a screenshot of the result of each html page from validator.w3.org however when I either save of push a commit each html page adds a closing tag on each self closing tag. Example is my images the <img> tag once I save the page will end up having a <img />.
+I have taken a screenshot of the result of each html page from validator.w3.org however when I either save of push a commit each html page adds a closing tag on each self closing tag. Example is my images the img tag will end up having a closing tag everytime I save the page.
 
 ## CSS Style Page
 ![css](https://github.com/JoshRudge22/Kingshead-Fc/assets/139856712/ac1dfa54-6357-4c1c-91ed-38ca7ec521bb)
