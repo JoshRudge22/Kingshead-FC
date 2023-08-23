@@ -47,11 +47,13 @@ I’ve added a contact us page for the user to get in touch if they would like t
 ![Contact Us - Light House Score](https://github.com/JoshRudge22/Kingshead-Fc/assets/139856712/3018a016-7a55-4c64-95cc-0e8c0bf28101)
 
 # Testing
-## HTML Pages
-
+## Index
 ![html ](https://github.com/JoshRudge22/Kingshead-Fc/assets/139856712/a7bb6ba7-a7fc-414e-a71c-e1e5b06d25d9)
+## About us
 ![about-html](https://github.com/JoshRudge22/Kingshead-Fc/assets/139856712/5a05cd62-7c83-453a-9bc2-02ae255f7a95)
+## Gallery
 ![Gallery - HTML](https://github.com/JoshRudge22/Kingshead-Fc/assets/139856712/768266e4-69bb-452a-81b7-63f1c59edb54)
+## Contact us
 ![contact us - html](https://github.com/JoshRudge22/Kingshead-Fc/assets/139856712/2e639146-c2f4-48df-8630-2b08f3cba167)
 
 I have taken a screenshot of the result of each html page from validator.w3.org however when I either save of push a commit each html page adds a closing tag on each self closing tag. Example is my images the <img> tag once I save the page will end up having a <img />.
